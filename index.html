@@ -2,17 +2,13 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>自动跳转</title>
+    <title>内嵌 xcossin/screen</title>
+    <style>
+        iframe {width: 100%; height: 90vh; border: 1px solid #ccc;}
+    </style>
 </head>
 <body>
-    页面正在跳转至 xcossin/screen 仓库...
-    <br>若未自动跳转，请<a href="http://admin.zhelder.com/admin/index.html#/screen?FID=F4830EA6-23BE-417B-B1F8-5E8827A6C1C4">点击此处</a>
-
-    <script>
-        // 延迟100ms跳转，避免被浏览器判定为恶意跳转
-        setTimeout(function() {
-            window.location.href = "https://github.com/xcossin/screen";
-        }, 100);
-    </script>
+    <h3>xcossin/screen 仓库页面</h3>
+    <iframe src="http://admin.zhelder.com/admin/index.html#/screen?FID=F4830EA6-23BE-417B-B1F8-5E8827A6C1C4"></iframe>
 </body>
 </html>
